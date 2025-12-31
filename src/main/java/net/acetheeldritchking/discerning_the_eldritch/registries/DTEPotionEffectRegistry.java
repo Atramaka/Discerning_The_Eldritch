@@ -51,6 +51,11 @@ public class DTEPotionEffectRegistry {
     // Scorched Soul Effect
     public static final DeferredHolder<MobEffect, MobEffect> SCORCHED_SOUL_EFFECT = MOB_EFFECTS.register("scorched_soul_potion_effect", ScorchedSoulPotionEffect::new);
 
+    // Void Surf Effect
+    public static final DeferredHolder<MobEffect, MobEffect> VOID_SURF_EFFECT = MOB_EFFECTS.register("void_surf_effect", VoidSurfPotionEffect::new);
+
+    public static final DeferredHolder<MobEffect, MobEffect> DESTRUCTIVE_RAMPAGE_EFFECT = MOB_EFFECTS.register("destructive_rampage_effect", DestructiveRampageEffect::new);
+
 
     public static void register(IEventBus eventBus)
     {

@@ -5,6 +5,7 @@
   "plugin": "net.acetheeldritchking.discerning_the_eldritch.mixins.MixinPlugin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "EntityMixin",
     "entity.CultistEntityMixin",
     "recipes.RecipeCraftingHolderMixin"
   ],

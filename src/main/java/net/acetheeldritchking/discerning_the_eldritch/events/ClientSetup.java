@@ -40,6 +40,8 @@ public class ClientSetup {
     @SubscribeEvent
     public static void registerRenderer(EntityRenderersEvent.RegisterRenderers event)
     {
+
+
         event.registerEntityRenderer(DTEEntityRegistry.ESOTERIC_EDGE.get(), EsotericEdgeRenderer::new);
         event.registerEntityRenderer(DTEEntityRegistry.APOTHIC_SUMMONER.get(), ApothicSummonerRenderer::new);
         event.registerEntityRenderer(DTEEntityRegistry.APOTHIC_CRUSADER.get(), ApothicCrusaderRenderer::new);

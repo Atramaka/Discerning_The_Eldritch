@@ -31,6 +31,7 @@ import net.acetheeldritchking.discerning_the_eldritch.entity.spells.razor_blade.
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.rift_walker.UnstableRiftEntity;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.ritual_burn.RitualBurnAoE;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.soul_eruption.SoulEruptionAoe;
+import net.acetheeldritchking.discerning_the_eldritch.entity.spells.void_spike.VoidSpikeEntity;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -42,6 +43,17 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class DTEEntityRegistry {
     private static final DeferredRegister<EntityType<?>> ENTITIES =
             DeferredRegister.create(Registries.ENTITY_TYPE, DiscerningTheEldritch.MOD_ID);
+
+
+
+    // Void Spike
+    public static final DeferredHolder<EntityType<?>, EntityType<VoidSpikeEntity>> VOID_SPIKE =
+            ENTITIES.register("void_spike", () -> EntityType.Builder.<VoidSpikeEntity>of(VoidSpikeEntity::new, MobCategory.MISC)
+                    .sized(2f, 2f)
+                    .clientTrackingRange(64)
+                    .build(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, "void_spike").toString())
+            );
+
 
     // Esoteric Edge
     public static final DeferredHolder<EntityType<?>, EntityType<EsotericEdge>> ESOTERIC_EDGE =

@@ -8,6 +8,12 @@
   "school.discerning_the_eldritch.ritual": "Occult",
 
 
+  "spell.discerning_the_eldritch.void_surf": "Void Surf",
+  "spell.discerning_the_eldritch.void_surf.guide": "Surf in the air using void essence",
+
+  "spell.discerning_the_eldritch.decimate": "Decimate",
+  "spell.discerning_the_eldritch.decimate.guide": "Cause decay in a field infront of you",
+
   "effect.discerning_the_eldritch.silence_potion_effect": "Silenced",
   "effect.discerning_the_eldritch.silence_potion_effect.description": "Prevents the user from casting spells",
   "effect.discerning_the_eldritch.metaphysical_potion_effect": "Metaphysical",

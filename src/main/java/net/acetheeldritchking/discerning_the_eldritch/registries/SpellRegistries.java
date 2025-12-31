@@ -25,6 +25,18 @@ public class SpellRegistries {
         return SPELLS.register(spell.getSpellName(), () -> spell);
     }
 
+
+    // ADDED SPELLS BY FESHY
+
+    // Void Surf - Step style spell
+    public static final Supplier<AbstractSpell> VOID_SURF = registerSpell(new VoidSurfSpell());
+
+    public static final Supplier<AbstractSpell> DECIMATE = registerSpell(new DecimateSpell());
+
+    public static final Supplier<AbstractSpell> CONQUERORS_FLIGHT = registerSpell(new ConquerorsFlightSpell());
+
+    public static final Supplier<AbstractSpell> HEAVY_DESOLATION = registerSpell(new HeavyDesolationSpell());
+
     /***
      * Eldritch Spells
      */

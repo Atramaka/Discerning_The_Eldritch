@@ -8,6 +8,7 @@ import mod.azure.azurelib.common.render.item.AzItemRendererRegistry;
 import net.acetheeldritchking.aces_spell_utils.entity.render.items.SheathCurioRenderer;
 import net.acetheeldritchking.aces_spell_utils.items.curios.SheathCurioItem;
 import net.acetheeldritchking.discerning_the_eldritch.compat.CompatRegistry;
+import net.acetheeldritchking.discerning_the_eldritch.effects.DestructiveRampageEffect;
 import net.acetheeldritchking.discerning_the_eldritch.entity.render.armor.CrimsonStagArmorRenderer;
 import net.acetheeldritchking.discerning_the_eldritch.entity.render.armor.EldritchWarlockArmorRenderer;
 import net.acetheeldritchking.discerning_the_eldritch.entity.render.armor.EldritchWarlockHelmetRenderer;
@@ -15,9 +16,13 @@ import net.acetheeldritchking.discerning_the_eldritch.entity.render.armor.Eldrit
 import net.acetheeldritchking.discerning_the_eldritch.entity.render.items.*;
 import net.acetheeldritchking.discerning_the_eldritch.items.armor.DTEArmorMaterialRegistry;
 import net.acetheeldritchking.discerning_the_eldritch.loot.DTELootModifiers;
+import net.acetheeldritchking.discerning_the_eldritch.networking.SprintBoostPacket;
 import net.acetheeldritchking.discerning_the_eldritch.registries.*;
 import net.acetheeldritchking.discerning_the_eldritch.utils.DTEServerConfig;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.player.Player;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
+import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 
@@ -82,7 +87,30 @@ public class DiscerningTheEldritch
         CompatRegistry.registerPastelItems(modEventBus);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, DTEServerConfig.SPEC);
+
+
+
+        modEventBus.addListener(this::registerPackets);
     }
+
+    private void registerPackets(final RegisterPayloadHandlersEvent event) {
+        PayloadRegistrar registrar = event.registrar("1");
+        registrar.playToServer(
+                SprintBoostPacket.TYPE,
+                SprintBoostPacket.STREAM_CODEC,
+                (packet, context) -> {
+                    context.enqueueWork(() -> {
+                        Player player = context.player();
+                        if (player != null && player.hasEffect(DTEPotionEffectRegistry.DESTRUCTIVE_RAMPAGE_EFFECT)) {
+                            // Trigger the boost on the server
+                            DestructiveRampageEffect.triggerBoost(player);
+                        }
+                    });
+                }
+        );
+    }
+
+
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
