@@ -8,8 +8,14 @@
   "school.discerning_the_eldritch.ritual": "Occult",
 
 
-  "spell.discerning_the_eldritch.void_surf": "Void Surf",
-  "spell.discerning_the_eldritch.void_surf.guide": "Surf in the air using void essence",
+  "attribute.discerning_the_eldritch.dark_magic_resist": "Void Magic Resist",
+  "attribute.discerning_the_eldritch.dark_spell_power": "Void Spell Power",
+
+
+  "school.discerning_the_eldritch.dark": "Void",
+  "ui.discerning_the_eldritch.dark_cast_failure": "Void cannot be casted in a mere spellbook",
+  "spell.discerning_the_eldritch.void_surf": "Shadow Soar",
+  "spell.discerning_the_eldritch.void_surf.guide": "Soar in the air using void essence",
 
   "spell.discerning_the_eldritch.decimate": "Decimate",
   "spell.discerning_the_eldritch.decimate.guide": "Cause decay in a field infront of you",

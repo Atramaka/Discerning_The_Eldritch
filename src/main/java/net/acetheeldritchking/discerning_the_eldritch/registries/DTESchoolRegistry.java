@@ -27,17 +27,17 @@ public class DTESchoolRegistry {
         return DTE_SCHOOLS.register(type.getId().getPath(), () -> type);
     }
 
-    public static final ResourceLocation VOID_RESOURCE = DiscerningTheEldritch.id("dark");
+    public static final ResourceLocation DARK_RESOURCE = DiscerningTheEldritch.id("dark");
 
     public static final Supplier<SchoolType> VOID = registerSchool(new SchoolType
             (
-                    VOID_RESOURCE,
-                    DTETags.VOID_FOCUS,
+                    DARK_RESOURCE,
+                    DTETags.DARK_FOCUS,
                     Component.translatable("school.discerning_the_eldritch.dark").withStyle(Style.EMPTY.withColor(0x10003d)),
-                    DTEAttributeRegistry.VOID_MAGIC_POWER,
-                    DTEAttributeRegistry.VOID_MAGIC_RESIST,
+                    DTEAttributeRegistry.DARK_MAGIC_POWER,
+                    DTEAttributeRegistry.DARK_MAGIC_RESIST,
                     SoundRegistry.TELEKINESIS_CAST,
-                    DTEDamageTypes.VOID_MAGIC
+                    DTEDamageTypes.DARK_MAGIC
             ));
 
 

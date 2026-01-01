@@ -47,7 +47,7 @@ public class DecimateSpell extends AbstractSpell {
 
     private final DefaultConfig defaultConfig = new DefaultConfig()
             .setMinRarity(SpellRarity.EPIC)
-            .setSchoolResource(DTESchoolRegistry.VOID_RESOURCE)
+            .setSchoolResource(DTESchoolRegistry.DARK_RESOURCE)
             .setMaxLevel(5)
             .setCooldownSeconds(16)
             .build();

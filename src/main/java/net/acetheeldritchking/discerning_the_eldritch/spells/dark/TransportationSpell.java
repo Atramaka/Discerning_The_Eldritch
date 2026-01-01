@@ -37,7 +37,7 @@ public class TransportationSpell extends AbstractSpell {
 
     private final DefaultConfig defaultConfig = new DefaultConfig()
             .setMinRarity(SpellRarity.UNCOMMON)
-            .setSchoolResource(DTESchoolRegistry.VOID_RESOURCE)
+            .setSchoolResource(DTESchoolRegistry.DARK_RESOURCE)
             .setMaxLevel(5)
             .setCooldownSeconds(5)
             .build();

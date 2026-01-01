@@ -2,10 +2,8 @@ package net.acetheeldritchking.discerning_the_eldritch.registries;
 
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.acetheeldritchking.discerning_the_eldritch.DiscerningTheEldritch;
-import net.acetheeldritchking.discerning_the_eldritch.spells.dark.DecimateSpell;
-import net.acetheeldritchking.discerning_the_eldritch.spells.dark.OblivionSpell;
-import net.acetheeldritchking.discerning_the_eldritch.spells.dark.TransportationSpell;
-import net.acetheeldritchking.discerning_the_eldritch.spells.dark.VoidSurfSpell;
+
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.*;
 import net.acetheeldritchking.discerning_the_eldritch.spells.eldritch.*;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.BoogieWoogieSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.GuardiansGazeSpell;

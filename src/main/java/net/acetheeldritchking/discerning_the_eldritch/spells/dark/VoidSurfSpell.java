@@ -41,7 +41,7 @@ public class VoidSurfSpell extends AbstractSpell {
 
     private final DefaultConfig defaultConfig = new DefaultConfig()
             .setMinRarity(SpellRarity.LEGENDARY)
-            .setSchoolResource(DTESchoolRegistry.VOID_RESOURCE)
+            .setSchoolResource(DTESchoolRegistry.DARK_RESOURCE)
             .setMaxLevel(3)
             .setCooldownSeconds(30)
             .build();
