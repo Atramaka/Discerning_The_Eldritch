@@ -47,7 +47,7 @@ public class DestructiveRampageEffect extends CustomDescriptionMobEffect {
 
     // Track boost state per player
     private static final Map<UUID, BoostData> boostDataMap = new HashMap<>();
-    private static final int BOOST_DURATION = 30; // 1.5 seconds
+    private static final int BOOST_DURATION = 50; // 1.5 seconds
     private static final int BOOST_COOLDOWN = 110; // 3 seconds
     private static final double BOOST_SPEED_MULTIPLIER = 2;
 
@@ -74,8 +74,8 @@ public class DestructiveRampageEffect extends CustomDescriptionMobEffect {
             Level level = player.level();
             if (!level.isClientSide && level instanceof ServerLevel sl) {
                 MagicManager.spawnParticles(sl, new BlastwaveParticleOptions(new Vector3f(1.0f, 1.0f, 1.0f), 5f), player.getX(), player.getY() + 1, player.getZ(), 1, 0, 0, 0, 0, true);
-                sl.sendParticles(ParticleTypes.SONIC_BOOM, player.getX(), player.getY() + 1, player.getZ(), 3, 0.1, 0.1, 0.1, 0.0);
-                sl.sendParticles(ParticleTypes.GUST_EMITTER_LARGE, player.getX(), player.getY() + 1, player.getZ(), 2, 0.2, 0.2, 0.2, 0.0);
+                sl.sendParticles(ParticleTypes.EXPLOSION, player.getX(), player.getY(), player.getZ(), 1, 0.1, 0.1, 0.1, 0.0);
+                sl.sendParticles(ParticleTypes.GUST, player.getX(), player.getY(), player.getZ(), 2, 0.2, 0.2, 0.2, 0.0);
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.WARDEN_SONIC_BOOM, SoundSource.PLAYERS, 1.5f, 1.8f);
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.BREEZE_WIND_CHARGE_BURST, SoundSource.PLAYERS, 1.0f, 0.8f);
             }
@@ -123,12 +123,12 @@ public class DestructiveRampageEffect extends CustomDescriptionMobEffect {
             player.resetFallDistance();
 
             // 3. Apply downward slam impulse
-            player.setDeltaMovement(0, -5.0, 0);
+            player.setDeltaMovement(0, -1.0, 0);
             player.hasImpulse = true;
 
             // 4. Cool "Slam Start" FX
             if (!level.isClientSide && level instanceof ServerLevel sl) {
-                sl.sendParticles(ParticleTypes.GUST_EMITTER_LARGE, player.getX(), player.getY(), player.getZ(), 2, 0.2, 0.2, 0.2, 0.0);
+                sl.sendParticles(ParticleTypes.GUST, player.getX(), player.getY(), player.getZ(), 1, 0.2, 0.2, 0.2, 0.0);
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.GENERIC_EXPLODE.value(), SoundSource.PLAYERS, 0.8f, 1.4f);
             }
 
@@ -154,15 +154,15 @@ public class DestructiveRampageEffect extends CustomDescriptionMobEffect {
                 // Additional particles for effect
                 sl.sendParticles(ParticleTypes.EXPLOSION,
                     player.getX(), player.getY() + 1, player.getZ(), 
-                    3, 0.1, 0.1, 0.1, 0.0);
+                    1, 0.1, 0.1, 0.1, 0.0);
                 
                 sl.sendParticles(ParticleTypes.EXPLOSION,
                     player.getX(), player.getY() + 1, player.getZ(), 
-                    2, 0.2, 0.2, 0.2, 0.0);
+                    1, 0.2, 0.2, 0.2, 0.0);
                 
                 // Sound barrier break sound
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), 
-                    SoundEvents.WARDEN_SONIC_BOOM, SoundSource.PLAYERS, 1.5f, 1.8f);
+                    SoundEvents.WARDEN_SONIC_BOOM, SoundSource.PLAYERS, 4f, 1f);
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), 
                     SoundEvents.GENERIC_EXPLODE, SoundSource.PLAYERS, 1.0f, 0.8f);
             }

@@ -2,6 +2,10 @@ package net.acetheeldritchking.discerning_the_eldritch.registries;
 
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.acetheeldritchking.discerning_the_eldritch.DiscerningTheEldritch;
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.DecimateSpell;
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.OblivionSpell;
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.TransportationSpell;
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.VoidSurfSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.eldritch.*;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.BoogieWoogieSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.GuardiansGazeSpell;
@@ -36,6 +40,10 @@ public class SpellRegistries {
     public static final Supplier<AbstractSpell> CONQUERORS_FLIGHT = registerSpell(new ConquerorsFlightSpell());
 
     public static final Supplier<AbstractSpell> HEAVY_DESOLATION = registerSpell(new HeavyDesolationSpell());
+
+    public static final Supplier<AbstractSpell> OBLIVION = registerSpell(new OblivionSpell());
+
+    public static final Supplier<AbstractSpell> TRANSPORTATION = registerSpell(new TransportationSpell());
 
     /***
      * Eldritch Spells

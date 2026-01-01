@@ -27,6 +27,20 @@ public class DTESchoolRegistry {
         return DTE_SCHOOLS.register(type.getId().getPath(), () -> type);
     }
 
+    public static final ResourceLocation VOID_RESOURCE = DiscerningTheEldritch.id("dark");
+
+    public static final Supplier<SchoolType> VOID = registerSchool(new SchoolType
+            (
+                    VOID_RESOURCE,
+                    DTETags.VOID_FOCUS,
+                    Component.translatable("school.discerning_the_eldritch.dark").withStyle(Style.EMPTY.withColor(0x10003d)),
+                    DTEAttributeRegistry.VOID_MAGIC_POWER,
+                    DTEAttributeRegistry.VOID_MAGIC_RESIST,
+                    SoundRegistry.TELEKINESIS_CAST,
+                    DTEDamageTypes.VOID_MAGIC
+            ));
+
+
     public static final ResourceLocation RITUAL_RESOURCE = DiscerningTheEldritch.id("ritual");
 
     public static final Supplier<SchoolType> RITUAL = registerSchool(new SchoolType
@@ -39,4 +53,7 @@ public class DTESchoolRegistry {
                     SoundRegistry.EVOCATION_CAST,
                     DTEDamageTypes.RITUAL_MAGIC
             ));
+
+
+
 }

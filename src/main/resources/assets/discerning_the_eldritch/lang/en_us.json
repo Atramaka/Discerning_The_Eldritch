@@ -14,6 +14,16 @@
   "spell.discerning_the_eldritch.decimate": "Decimate",
   "spell.discerning_the_eldritch.decimate.guide": "Cause decay in a field infront of you",
 
+  "spell.discerning_the_eldritch.conquerors_flight": "Conqueror's Flight",
+  "spell.discerning_the_eldritch.conquerors_flight.guide": "Fly like a superhero (or villian)",
+
+  "spell.discerning_the_eldritch.oblivion": "Oblivion",
+  "spell.discerning_the_eldritch.oblivion.guide": "Channel nearby opponents through oblivion and brings them back at a new location to deal medium damage",
+
+  "spell.discerning_the_eldritch.transportation": "Transportation",
+  "spell.discerning_the_eldritch.transportation.guide": "Teleport nearby opponents to a random location, dealing medium damage to them",
+
+
   "effect.discerning_the_eldritch.silence_potion_effect": "Silenced",
   "effect.discerning_the_eldritch.silence_potion_effect.description": "Prevents the user from casting spells",
   "effect.discerning_the_eldritch.metaphysical_potion_effect": "Metaphysical",

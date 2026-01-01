@@ -14,6 +14,9 @@ public class DTEDamageTypes {
         return ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, name).toString()));
     }
 
+    // Void
+    public static final ResourceKey<DamageType> VOID_MAGIC = register("dark_magic");
+
     // Ritual
     public static final ResourceKey<DamageType> RITUAL_MAGIC = register("ritual_magic");
 
@@ -33,5 +36,8 @@ public class DTEDamageTypes {
     public static void bootstrap(BootstrapContext<DamageType> context)
     {
         context.register(RITUAL_MAGIC, new DamageType(RITUAL_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0F));
+
+        context.register(VOID_MAGIC, new DamageType(VOID_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0F));
+
     }
 }

@@ -18,6 +18,11 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class DTEAttributeRegistry {
     private static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(Registries.ATTRIBUTE, DiscerningTheEldritch.MOD_ID);
 
+
+    // Void
+    public static final DeferredHolder<Attribute, Attribute> VOID_MAGIC_RESIST = registerResistanceAttribute("dark");
+    public static final DeferredHolder<Attribute, Attribute> VOID_MAGIC_POWER = registerPowerAttribute("dark");
+
     // Ritual
     public static final DeferredHolder<Attribute, Attribute> RITUAL_MAGIC_RESIST = registerResistanceAttribute("ritual");
     public static final DeferredHolder<Attribute, Attribute> RITUAL_MAGIC_POWER = registerPowerAttribute("ritual");

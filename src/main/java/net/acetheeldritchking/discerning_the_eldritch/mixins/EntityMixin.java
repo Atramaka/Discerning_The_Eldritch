@@ -33,7 +33,7 @@ public abstract class EntityMixin extends Entity implements IEntityDataAccessor 
     @Inject(method = "updateFallFlying", at = @At("HEAD"), cancellable = true)
     private void dte$bypassElytraCheck(CallbackInfo ci) {
         if (this.hasEffect(DTEPotionEffectRegistry.DESTRUCTIVE_RAMPAGE_EFFECT) || this.hasEffect(DTEPotionEffectRegistry.VOID_SURF_EFFECT)) {
-            if (!this.isInWater() && !this.isPassenger()) {
+            if (!this.isPassenger()) {
                 this.dte$setFallFlying(true);
                 ci.cancel(); 
             }

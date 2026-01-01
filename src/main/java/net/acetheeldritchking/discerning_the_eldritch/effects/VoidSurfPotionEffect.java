@@ -8,6 +8,7 @@ import io.redspace.ironsspellbooks.damage.DamageSources;
 import net.acetheeldritchking.discerning_the_eldritch.registries.DTEPotionEffectRegistry;
 import net.acetheeldritchking.discerning_the_eldritch.registries.DTESoundRegistry;
 import net.acetheeldritchking.discerning_the_eldritch.registries.SpellRegistries;
+import net.minecraft.core.particles.DustParticleOptions;
 import net.minecraft.server.level.ServerLevel;
 import org.joml.Vector3f;
 import net.acetheeldritchking.discerning_the_eldritch.utils.IEntityDataAccessor;
@@ -44,7 +45,7 @@ public class VoidSurfPotionEffect extends CustomDescriptionMobEffect {
     public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
         return true;
     }
-
+    DustParticleOptions indicatorColor = new DustParticleOptions(new Vector3f(0.3f, 0.0f, 0.7f), 0.5f);
     @Override
     public boolean applyEffectTick(LivingEntity living, int amplifier) {
         if (!(living instanceof Player player)) {
@@ -74,7 +75,22 @@ public class VoidSurfPotionEffect extends CustomDescriptionMobEffect {
                 player.level().addParticle(
                         ParticleTypes.ASH,
                         player.getX() + (Math.random() - 0.5) * 0.6,
-                        player.getY() + 0.2 + (Math.random() * 0.8),
+                        player.getY() + (Math.random() * 0.8),
+                        player.getZ() + (Math.random() - 0.5) * 0.6,
+                        (Math.random() - 0.5) * 0.05,
+                        (Math.random() - 0.5) * 0.05,
+                        (Math.random() - 0.5) * 0.05
+                );
+
+
+
+            }
+
+            for (int i = 0; i < 3; i++) {
+                player.level().addParticle(
+                        indicatorColor,
+                        player.getX() + (Math.random() - 0.5) * 0.6,
+                        player.getY() + (Math.random() * 0.8),
                         player.getZ() + (Math.random() - 0.5) * 0.6,
                         (Math.random() - 0.5) * 0.05,
                         (Math.random() - 0.5) * 0.05,
@@ -103,9 +119,14 @@ public class VoidSurfPotionEffect extends CustomDescriptionMobEffect {
                 }
 
                 // Shockwave VFX
+
+
                 MagicManager.spawnParticles(sl, new BlastwaveParticleOptions(new Vector3f(0.05f, 0.05f, 0.05f), radius), player.getX(), player.getY() + 0.1, player.getZ(), 1, 0, 0, 0, 0, true);
-                sl.sendParticles(ParticleTypes.ASH, player.getX(), player.getY(), player.getZ(), 120, 1.5, 0.5, 1.5, 0.1);
-                sl.sendParticles(ParticleTypes.SQUID_INK, player.getX(), player.getY(), player.getZ(), 40, 0.8, 0.2, 0.8, 0.2);
+                sl.sendParticles(ParticleTypes.WARPED_SPORE, player.getX(), player.getY(), player.getZ(), 50, 1.5, 0.5, 1.5, 0.45);
+
+                sl.sendParticles(indicatorColor, player.getX(), player.getY(), player.getZ(), 20, 1.5, 0.5, 1.5, 0.15);
+
+                sl.sendParticles(ParticleTypes.SQUID_INK, player.getX(), player.getY(), player.getZ(), 10, 0.8, 0.2, 0.8, 0.05);
                 sl.playSound(null, player.getX(), player.getY(), player.getZ(), DTESoundRegistry.SOUL_SLAM.value(), player.getSoundSource(), 4, 0.8f);
             }
             player.addTag("void_surf_impact");
@@ -153,6 +174,7 @@ public class VoidSurfPotionEffect extends CustomDescriptionMobEffect {
                     player.resetFallDistance();
 
                     if (!level.isClientSide && level instanceof ServerLevel sl) {
+                        sl.sendParticles(indicatorColor, player.getX(), player.getY(), player.getZ(), 20, 1.5, 0.5, 1.5, 0.15);
                         sl.sendParticles(ParticleTypes.SQUID_INK, groundPos.x, groundPos.y, groundPos.z, 45, 0.6, 0.2, 0.6, 0.1);
                         sl.sendParticles(ParticleTypes.ASH, groundPos.x, groundPos.y, groundPos.z, 25, 0.5, 0.2, 0.5, 0.05);
                     }

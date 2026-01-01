@@ -89,7 +89,7 @@ public class ConquerorsFlightSpell extends AbstractSpell {
 
     @Override
     public void onCast(Level level, int spellLevel, LivingEntity entity, CastSource castSource, MagicData magicData) {
-        if (entity instanceof Player player && player.onGround()) {
+        if (entity instanceof Player player) {
             // Initial burst of invisibility and lift
             //player.addEffect(new MobEffectInstance(MobEffectRegistry.TRUE_INVISIBILITY, 8, 1, false, false, true));
             player.setPose(Pose.FALL_FLYING);
@@ -141,6 +141,6 @@ public class ConquerorsFlightSpell extends AbstractSpell {
 
     @Override
     public AnimationHolder getCastStartAnimation() {
-        return SpellAnimations.CHARGE_ANIMATION;
+        return SpellAnimations.CHARGE_RAISED_HAND;
     }
 }
