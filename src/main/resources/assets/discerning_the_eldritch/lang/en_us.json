@@ -6,13 +6,14 @@
 
 
   "school.discerning_the_eldritch.ritual": "Occult",
-
+  "school.discerning_the_eldritch.dark": "Void",
+  "school.discerning_the_eldritch.curse": "Cursed Technique",
 
   "attribute.discerning_the_eldritch.dark_magic_resist": "Void Magic Resist",
   "attribute.discerning_the_eldritch.dark_spell_power": "Void Spell Power",
 
 
-  "school.discerning_the_eldritch.dark": "Void",
+
   "ui.discerning_the_eldritch.dark_cast_failure": "Void cannot be casted in a mere spellbook",
   "spell.discerning_the_eldritch.void_surf": "Shadow Soar",
   "spell.discerning_the_eldritch.void_surf.guide": "Soar in the air using void essence",
@@ -148,6 +149,9 @@
   "item.discerning_the_eldritch.eldritch_upgrade_template": "Eldritch Upgrade Template",
   "item.discerning_the_eldritch.ritual_upgrade_orb": "Occult Upgrade Orb",
   "item.discerning_the_eldritch.ritual_rune": "Occult Rune",
+
+  "item.discerning_the_eldritch.dark_upgrade_orb": "Void Upgrade Orb",
+  "item.discerning_the_eldritch.dark_rune": "Void Rune",
 
   "item.discerning_the_eldritch.apothic_key": "Apothic Key",
   "item.discerning_the_eldritch.ascended_key": "Ascended Key",

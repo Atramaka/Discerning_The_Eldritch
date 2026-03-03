@@ -16,6 +16,10 @@ public class DTETags {
 
     public static final TagKey<Item> DARK_FOCUS = ItemTags.create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, "dark_focus").toString()));
 
+
+    public static final TagKey<Item> CURSE_FOCUS = ItemTags.create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, "curse_focus").toString()));
+
+
     // Ritual School Focus
     public static final TagKey<Item> RITUAL_FOCUS = ItemTags.create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, "ritual_focus").toString()));
 

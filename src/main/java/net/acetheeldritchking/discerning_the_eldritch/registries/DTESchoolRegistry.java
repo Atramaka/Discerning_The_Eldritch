@@ -29,7 +29,7 @@ public class DTESchoolRegistry {
 
     public static final ResourceLocation DARK_RESOURCE = DiscerningTheEldritch.id("dark");
 
-    public static final Supplier<SchoolType> VOID = registerSchool(new SchoolType
+    public static final Supplier<SchoolType> DARK = registerSchool(new SchoolType
             (
                     DARK_RESOURCE,
                     DTETags.DARK_FOCUS,
@@ -40,6 +40,18 @@ public class DTESchoolRegistry {
                     DTEDamageTypes.DARK_MAGIC
             ));
 
+    public static final ResourceLocation CURSE_RESOURCE = DiscerningTheEldritch.id("curse");
+
+    public static final Supplier<SchoolType> CURSE = registerSchool(new SchoolType
+            (
+                    CURSE_RESOURCE,
+                    DTETags.CURSE_FOCUS,
+                    Component.translatable("school.discerning_the_eldritch.curse").withStyle(Style.EMPTY.withColor(0x870b32)),
+                    DTEAttributeRegistry.CURSE_MAGIC_RESIST,
+                    DTEAttributeRegistry.CURSE_MAGIC_RESIST,
+                    SoundRegistry.TELEKINESIS_CAST,
+                    DTEDamageTypes.CURSE_MAGIC
+            ));
 
     public static final ResourceLocation RITUAL_RESOURCE = DiscerningTheEldritch.id("ritual");
 

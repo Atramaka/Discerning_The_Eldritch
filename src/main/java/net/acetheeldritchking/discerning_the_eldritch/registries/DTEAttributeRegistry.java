@@ -23,6 +23,11 @@ public class DTEAttributeRegistry {
     public static final DeferredHolder<Attribute, Attribute> DARK_MAGIC_RESIST = registerResistanceAttribute("dark");
     public static final DeferredHolder<Attribute, Attribute> DARK_MAGIC_POWER = registerPowerAttribute("dark");
 
+
+    // Void
+    public static final DeferredHolder<Attribute, Attribute> CURSE_MAGIC_RESIST = registerResistanceAttribute("curse");
+    public static final DeferredHolder<Attribute, Attribute> CURSE_MAGIC_POWER = registerPowerAttribute("curse");
+
     // Ritual
     public static final DeferredHolder<Attribute, Attribute> RITUAL_MAGIC_RESIST = registerResistanceAttribute("ritual");
     public static final DeferredHolder<Attribute, Attribute> RITUAL_MAGIC_POWER = registerPowerAttribute("ritual");

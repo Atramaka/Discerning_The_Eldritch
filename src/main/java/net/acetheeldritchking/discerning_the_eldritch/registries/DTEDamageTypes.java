@@ -17,6 +17,9 @@ public class DTEDamageTypes {
     // Void
     public static final ResourceKey<DamageType> DARK_MAGIC = register("dark_magic");
 
+    // Void
+    public static final ResourceKey<DamageType> CURSE_MAGIC = register("curse_magic");
+
     // Ritual
     public static final ResourceKey<DamageType> RITUAL_MAGIC = register("ritual_magic");
 
@@ -38,6 +41,8 @@ public class DTEDamageTypes {
         context.register(RITUAL_MAGIC, new DamageType(RITUAL_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0F));
 
         context.register(DARK_MAGIC, new DamageType(DARK_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0F));
+
+        context.register(CURSE_MAGIC, new DamageType(CURSE_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0F));
 
     }
 }
