@@ -27,18 +27,7 @@ public class DTESchoolRegistry {
         return DTE_SCHOOLS.register(type.getId().getPath(), () -> type);
     }
 
-    public static final ResourceLocation DARK_RESOURCE = DiscerningTheEldritch.id("dark");
 
-    public static final Supplier<SchoolType> DARK = registerSchool(new SchoolType
-            (
-                    DARK_RESOURCE,
-                    DTETags.DARK_FOCUS,
-                    Component.translatable("school.discerning_the_eldritch.dark").withStyle(Style.EMPTY.withColor(0x10003d)),
-                    DTEAttributeRegistry.DARK_MAGIC_POWER,
-                    DTEAttributeRegistry.DARK_MAGIC_RESIST,
-                    SoundRegistry.TELEKINESIS_CAST,
-                    DTEDamageTypes.DARK_MAGIC
-            ));
 
     public static final ResourceLocation CURSE_RESOURCE = DiscerningTheEldritch.id("curse");
 
@@ -47,7 +36,7 @@ public class DTESchoolRegistry {
                     CURSE_RESOURCE,
                     DTETags.CURSE_FOCUS,
                     Component.translatable("school.discerning_the_eldritch.curse").withStyle(Style.EMPTY.withColor(0x870b32)),
-                    DTEAttributeRegistry.CURSE_MAGIC_RESIST,
+                    DTEAttributeRegistry.CURSE_MAGIC_POWER,
                     DTEAttributeRegistry.CURSE_MAGIC_RESIST,
                     SoundRegistry.TELEKINESIS_CAST,
                     DTEDamageTypes.CURSE_MAGIC
@@ -67,5 +56,17 @@ public class DTESchoolRegistry {
             ));
 
 
+    public static final ResourceLocation DARK_RESOURCE = DiscerningTheEldritch.id("dark");
+
+    public static final Supplier<SchoolType> DARK = registerSchool(new SchoolType
+            (
+                    DARK_RESOURCE,
+                    DTETags.DARK_FOCUS,
+                    Component.translatable("school.discerning_the_eldritch.dark").withStyle(Style.EMPTY.withColor(0x10003d)),
+                    DTEAttributeRegistry.DARK_MAGIC_POWER,
+                    DTEAttributeRegistry.DARK_MAGIC_RESIST,
+                    SoundRegistry.TELEKINESIS_CAST,
+                    DTEDamageTypes.DARK_MAGIC
+            ));
 
 }
