@@ -21,6 +21,7 @@ import net.acetheeldritchking.discerning_the_eldritch.entity.spells.blade_of_ran
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.cataclysm_blade_projectile.CataclysmBladeBigProjectile;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.cataclysm_blade_projectile.CataclysmBladeSmallProjectile;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.crystal_carve.CrystalCarveEntity;
+import net.acetheeldritchking.discerning_the_eldritch.entity.spells.dismantle.Dismantle;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.esoteric_edge.EsotericEdge;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.esoteric_strike.EsotericStrike;
 import net.acetheeldritchking.discerning_the_eldritch.entity.spells.glacial_edge.GlacialEdge;
@@ -43,6 +44,15 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class DTEEntityRegistry {
     private static final DeferredRegister<EntityType<?>> ENTITIES =
             DeferredRegister.create(Registries.ENTITY_TYPE, DiscerningTheEldritch.MOD_ID);
+
+
+    // Dismantle
+    public static final DeferredHolder<EntityType<?>, EntityType<Dismantle>> DISMANTLE =
+            ENTITIES.register("dismantle", () -> EntityType.Builder.<Dismantle>of(Dismantle::new, MobCategory.MISC)
+                    .sized(5f, 1f)
+                    .clientTrackingRange(64)
+                    .build(ResourceLocation.fromNamespaceAndPath(DiscerningTheEldritch.MOD_ID, "dismantle").toString())
+            );
 
 
 

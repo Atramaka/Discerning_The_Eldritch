@@ -3,7 +3,8 @@ package net.acetheeldritchking.discerning_the_eldritch.registries;
 import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.acetheeldritchking.discerning_the_eldritch.DiscerningTheEldritch;
 
-import net.acetheeldritchking.discerning_the_eldritch.spells.dark.*;
+
+import net.acetheeldritchking.discerning_the_eldritch.spells.curse.DismantleSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.eldritch.*;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.BoogieWoogieSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.evocation.GuardiansGazeSpell;
@@ -13,6 +14,7 @@ import net.acetheeldritchking.discerning_the_eldritch.spells.holy.ExorcismSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.ice.CrystallineCarverSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.ice.GlacialEdgeSpell;
 import net.acetheeldritchking.discerning_the_eldritch.spells.ritual.*;
+import net.acetheeldritchking.discerning_the_eldritch.spells.dark.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -29,6 +31,9 @@ public class SpellRegistries {
 
 
     // ADDED SPELLS BY FESHY
+
+    public static final Supplier<AbstractSpell> DISMANTLE = registerSpell(new DismantleSpell());
+
 
     // Void Surf - Step style spell
     public static final Supplier<AbstractSpell> VOID_SURF = registerSpell(new VoidSurfSpell());
