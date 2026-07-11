@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "cursed_sorcery:item/the_apocrypha_model"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "cursed_sorcery:item/the_apocrypha_spellbook_gui"
+        },
+        "third_person_left_hand": {
+            "parent": "cursed_sorcery:item/the_apocrypha_model_handheld"
+        },
+        "third_person_right_hand": {
+            "parent": "cursed_sorcery:item/the_apocrypha_model_handheld"
+        },
+        "first_person_left_hand": {
+            "parent": "cursed_sorcery:item/the_apocrypha_model_handheld"
+        },
+        "first_person_right_hand": {
+            "parent": "cursed_sorcery:item/the_apocrypha_model_handheld"
+        },
+        "head": {
+            "textures": {
+                "book": "cursed_sorcery:item/spell_books/the_apocrypha_open",
+                "particle": "cursed_sorcery:item/spell_books/the_apocrypha_open"
+            },
+            "parent": "irons_spellbooks:item/template_spell_book_model_open"
+        }
+    }
+}

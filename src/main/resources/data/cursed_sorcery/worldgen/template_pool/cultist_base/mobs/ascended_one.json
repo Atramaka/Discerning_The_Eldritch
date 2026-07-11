@@ -1,0 +1,15 @@
+{
+  "name": "cursed_sorcery:cultist_base/mobs/ascended_one",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cursed_sorcery:cultist_base/mobs/ascended_one",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "discerning_the_eldritch:deep_greatsword",
-    "discerning_the_eldritch:god_spear",
-    "discerning_the_eldritch:ymir",
-    "discerning_the_eldritch:ice_spear",
-    "discerning_the_eldritch:ritual_dagger",
-    "discerning_the_eldritch:forlorn_rapier",
-    "discerning_the_eldritch:broken_legends_blade",
-    "discerning_the_eldritch:forsaken_flamberge",
-    "discerning_the_eldritch:snowgrave",
-    "discerning_the_eldritch:cataclysm",
-    "discerning_the_eldritch:devourer",
-    "discerning_the_eldritch:mourning_star",
-    "discerning_the_eldritch:cataclysm_awakened",
-    "discerning_the_eldritch:devourer_awakened",
-    "discerning_the_eldritch:mourning_star_awakened"
+    "cursed_sorcery:deep_greatsword",
+    "cursed_sorcery:god_spear",
+    "cursed_sorcery:ymir",
+    "cursed_sorcery:ice_spear",
+    "cursed_sorcery:ritual_dagger",
+    "cursed_sorcery:forlorn_rapier",
+    "cursed_sorcery:broken_legends_blade",
+    "cursed_sorcery:forsaken_flamberge",
+    "cursed_sorcery:snowgrave",
+    "cursed_sorcery:cataclysm",
+    "cursed_sorcery:devourer",
+    "cursed_sorcery:mourning_star",
+    "cursed_sorcery:cataclysm_awakened",
+    "cursed_sorcery:devourer_awakened",
+    "cursed_sorcery:mourning_star_awakened"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/blaze"
+    }
+  ],
+  "type": "cursed_sorcery:add_to_table",
+  "loot_table": "cursed_sorcery:entities/blaze_additions"
+}

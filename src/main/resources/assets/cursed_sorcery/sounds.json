@@ -1,0 +1,247 @@
+{
+    "silence_cast": {
+        "sounds": [
+            "cursed_sorcery:silence_cast"
+        ]
+    },
+    "clap": {
+        "sounds": [
+            "cursed_sorcery:clap"
+        ]
+    },
+    "esoteric_edge_slash": {
+        "sounds": [
+            "cursed_sorcery:esoteric_edge_slash"
+        ]
+    },
+    "entity.gaoler.hurt": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/hurt_1",
+            "cursed_sorcery:mob/gaoler/hurt_2",
+            "cursed_sorcery:mob/gaoler/hurt_3",
+            "cursed_sorcery:mob/gaoler/hurt_4"
+        ],
+        "subtitle": "subtitles.entity.gaoler.hurt"
+    },
+    "entity.gaoler.death": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/death_1",
+            "cursed_sorcery:mob/gaoler/death_2"
+        ],
+        "subtitle": "subtitles.entity.gaoler.death"
+    },
+    "entity.gaoler.step": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/step_1",
+            "cursed_sorcery:mob/gaoler/step_2",
+            "cursed_sorcery:mob/gaoler/step_3",
+            "cursed_sorcery:mob/gaoler/step_4"
+        ],
+        "subtitle": "subtitles.entity.gaoler.step"
+    },
+    "entity.gaoler.ambient": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/ambient_1",
+            "cursed_sorcery:mob/gaoler/ambient_2",
+            "cursed_sorcery:mob/gaoler/ambient_3",
+            "cursed_sorcery:mob/gaoler/ambient_4",
+            "cursed_sorcery:mob/gaoler/ambient_5",
+            "cursed_sorcery:mob/gaoler/ambient_6",
+            "cursed_sorcery:mob/gaoler/ambient_7",
+            "cursed_sorcery:mob/gaoler/ambient_8",
+            "cursed_sorcery:mob/gaoler/ambient_9",
+            "cursed_sorcery:mob/gaoler/ambient_10",
+            "cursed_sorcery:mob/gaoler/ambient_11",
+            "cursed_sorcery:mob/gaoler/ambient_12"
+        ],
+        "subtitle": "subtitles.entity.gaoler.ambient"
+    },
+    "entity.gaoler.attack_impact": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/attack_impact_1",
+            "cursed_sorcery:mob/gaoler/attack_impact_2"
+        ],
+        "subtitle": "subtitles.entity.gaoler.attack_impact"
+    },
+    "test_boss_music": {
+        "sounds": [
+            "cursed_sorcery:test_boss_music"
+        ]
+    },
+    "mend_flesh": {
+        "sounds": [
+            "cursed_sorcery:mend_flesh"
+        ]
+    },
+    "insanity_voices": {
+        "sounds": [
+            "cursed_sorcery:insanity_voices"
+        ]
+    },
+    "entity.gaoler.roar": {
+        "sounds": [
+            "cursed_sorcery:mob/gaoler/roar_1",
+            "cursed_sorcery:mob/gaoler/roar_2",
+            "cursed_sorcery:mob/gaoler/roar_3",
+            "cursed_sorcery:mob/gaoler/roar_4",
+            "cursed_sorcery:mob/gaoler/roar_5"
+        ],
+        "subtitle": "subtitles.entity.gaoler.roar"
+    },
+    "ascended_one_theme": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/music/the_ascended_one"
+        ]
+    },
+    "ascended_one_transition": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/music/behold"
+        ]
+    },
+    "ascended_one_final_phase": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/music/my_apotheosis"
+        ]
+    },
+    "ascended_one_final_phase_full": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/music/behold_my_apotheosis"
+        ]
+    },
+    "glacial_cleave_full": {
+        "sounds": [
+            "cursed_sorcery:glacial_cleave_full"
+        ]
+    },
+    "entity.ascended_one.hurt": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_1",
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_2",
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_3",
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_4",
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_5",
+            "cursed_sorcery:mob/ascended_one/voice/ao_hurt_6"
+        ],
+        "subtitle": "subtitles.entity.ascended_one.hurt"
+    },
+    "entity.ascended_one.death": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/voice/ascended_one_death"
+        ],
+        "subtitle": "subtitles.entity.ascended_one.death"
+    },
+    "entity.ascended_one.taunt_1": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/voice/you_think_you_can_stop_me"
+        ],
+        "subtitle": "subtitles.entity.ascended_one.taunt_1"
+    },
+    "entity.ascended_one.taunt_2": {
+        "sounds": [
+            "cursed_sorcery:mob/ascended_one/voice/behold_my_apotheosis_cry"
+        ],
+        "subtitle": "subtitles.entity.ascended_one.taunt_2"
+    },
+    "rift_walker_cast": {
+        "sounds": [
+            "cursed_sorcery:rift_walker_cast"
+        ]
+    },
+    "sculk_lantern_ominous_normal": {
+        "sounds": [
+            "cursed_sorcery:sculk_lantern_ominous_normal"
+        ],
+        "subtitle": "subtitles.item.fading_lantern_rings"
+    },
+    "sculk_lantern_ominous_success": {
+        "sounds": [
+            "cursed_sorcery:sculk_lantern_ominous_success"
+        ],
+        "subtitle": "subtitles.item.fading_lantern_beckons"
+    },
+    "esoteric_strike": {
+        "sounds": [
+            "cursed_sorcery:esoteric_strike"
+        ]
+    },
+    "esoteric_edge_slash_2": {
+        "sounds": [
+            "cursed_sorcery:esoteric_edge_slash_2"
+        ]
+    },
+    "crystalline_carver_base": {
+        "sounds": [
+            "cursed_sorcery:crystalline_carver_base"
+        ]
+    },
+    "crystalline_carver_finish": {
+        "sounds": [
+            "cursed_sorcery:crystalline_carver_finish"
+        ]
+    },
+    "ymir_slash": {
+        "sounds": [
+            "cursed_sorcery:ymir_slash"
+        ]
+    },
+    "razor_unsheathed": {
+        "sounds": [
+            "cursed_sorcery:razor_unsheathed"
+        ]
+    },
+    "razor_sheathed": {
+        "sounds": [
+            "cursed_sorcery:razor_sheathed"
+        ]
+    },
+    "magic_sword_cast": {
+        "sounds": [
+            "cursed_sorcery:magic_sword_cast"
+        ]
+    },
+    "devourer_wretch": {
+        "sounds": [
+            "cursed_sorcery:devourer_wretch"
+        ]
+    },
+    "dark_magic_sword_cast": {
+        "sounds": [
+            "cursed_sorcery:dark_magic_sword_cast"
+        ]
+    },
+    "dark_magic_charge_1": {
+        "sounds": [
+            "cursed_sorcery:dark_magic_charge_1"
+        ]
+    },
+    "soul_slam": {
+        "sounds": [
+            "cursed_sorcery:soul_slam"
+        ]
+    },
+
+  "dismantle_slice": {
+    "sounds": [
+      "cursed_sorcery:dismantle_slice"
+    ]
+  },
+
+  "lapse_blue_cast": {
+    "sounds": [
+      "cursed_sorcery:lapse_blue_cast"
+    ]
+  },
+
+  "lapse_blue_explode": {
+    "sounds": [
+      "cursed_sorcery:lapse_blue_explode"
+    ]
+  },
+
+
+    "soul_slam_echo": {
+        "sounds": [
+            "cursed_sorcery:soul_slam_echo"
+        ]
+    }
+}

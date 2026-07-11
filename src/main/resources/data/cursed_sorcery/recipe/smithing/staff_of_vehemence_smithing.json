@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "cursed_sorcery:broken_legends_staff"
+    },
+    "base": {
+        "item": "cursed_sorcery:staff_of_ascension"
+    },
+    "result": {
+        "count": 1,
+        "id": "cursed_sorcery:staff_of_eldritch"
+    },
+    "template": {
+        "item": "cursed_sorcery:eldritch_soul_shard"
+    }
+}

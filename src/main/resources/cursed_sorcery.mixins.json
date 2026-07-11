@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "net.feshy.cursed_sorcery.mixins",
+  "refmap": "cursed_sorcery.refmap.json",
+  "plugin": "net.feshy.cursed_sorcery.mixins.MixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "entity.CultistEntityMixin",
+    "recipes.RecipeCraftingHolderMixin"
+  ],
+  "client": [
+    "ClientEntityMixin",
+    "FogRendererMixin",
+    "MinecraftMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "cursed_sorcery:corrupted_cloth"
+    },
+    "title": {
+      "translate": "advancements.cursed_sorcery.enter_cultist_base.title"
+    },
+    "description": {
+      "translate": "advancements.cursed_sorcery.enter_cultist_base.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursed_sorcery:cursed_sorcery/main/root",
+  "criteria": {
+    "in_cultist_base": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "cursed_sorcery:cultist_base"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_cultist_base"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

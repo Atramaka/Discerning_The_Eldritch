@@ -1,8 +1,9 @@
 {
     "replace": false,
     "values": [
-        "discerning_the_eldritch:kings_effigy",
-        "discerning_the_eldritch:ironbound_feather",
-        "discerning_the_eldritch:rift_ripper_emblem"
+        "cursed_sorcery:kings_effigy",
+        "cursed_sorcery:ironbound_feather",
+        "cursed_sorcery:rift_ripper_emblem",
+        "cursed_sorcery:blessing_of_six_eyes"
     ]
 }

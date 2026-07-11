@@ -1,0 +1,419 @@
+{
+  "creative_tab.cursed_sorcery.items": "Discerning The Eldritch",
+
+  "attribute.cursed_sorcery.ritual_magic_resist": "Occult Magic Resist",
+  "attribute.cursed_sorcery.ritual_spell_power": "Occult Spell Power",
+
+  "item.cursed_sorcery.blessing_of_six_eyes": "Pendant of the Six Eyes",
+  "item.cursed_sorcery.blessing_of_six_eyes.desc": "A genetic gift passed down for generations by the Gojo clan now resides in a cursed object.  A remnant of the honored one.",
+
+  "attribute.cursed_sorcery.curse_magic_resist": "Cursed Energy Resist",
+  "attribute.cursed_sorcery.curse_spell_power": "Cursed Spell Power",
+
+  "school.cursed_sorcery.ritual": "Occult",
+  "school.cursed_sorcery.dark": "Void",
+  "school.cursed_sorcery.curse": "Curse",
+
+  "spell.cursed_sorcery.slice": "Slice",
+  "spell.cursed_sorcery.slice.guide": "slice and dice the air causing serious damage to entities and terrain.",
+
+  "spell.cursed_sorcery.dismantle": "Dismantle",
+  "spell.cursed_sorcery.dismantle.guide": "a barrage of slashes that obliterates anything in their path.",
+
+  "spell.cursed_sorcery.ground_cleave": "Ground Cleave",
+  "spell.cursed_sorcery.ground_cleave.guide": "Destroy the ground, dealing major damage to entities caught in the destruction.",
+
+  "spell.cursed_sorcery.cleave": "Cleave",
+  "spell.cursed_sorcery.cleave.guide": "Whatever you touch will be slashes relentlessly.",
+
+
+  "spell.cursed_sorcery.lapse_blue": "Blue: Maximum Output",
+  "spell.cursed_sorcery.lapse_blue.guide": "Conjure a blue vortex that will engulf any form of matter within its radius.  The vortex will explode after a set amount of time, causing devastating damage to anything caught in it.",
+
+  "spell.cursed_sorcery.reversal_red": "Reversal Red: Maximum Output",
+  "spell.cursed_sorcery.reversal_red.guide": "Devastating repulsive force that destroys the terrain infront of you, dealing devastating damage to anything in the way",
+
+  "ui.cursed_sorcery.cone_angle": "%d Blast Diameter",
+
+  "attribute.cursed_sorcery.dark_magic_resist": "Void Magic Resist",
+  "attribute.cursed_sorcery.dark_spell_power": "Void Spell Power",
+
+
+
+  "ui.cursed_sorcery.dark_cast_failure": "Void cannot be casted in a mere spellbook",
+  "spell.cursed_sorcery.void_surf": "Shadow Soar",
+  "spell.cursed_sorcery.void_surf.guide": "Soar in the air using void essence",
+
+  "spell.cursed_sorcery.decimate": "Decimate",
+  "spell.cursed_sorcery.decimate.guide": "Cause decay in a field infront of you",
+
+  "spell.cursed_sorcery.conquerors_flight": "Conqueror's Flight",
+  "spell.cursed_sorcery.conquerors_flight.guide": "Fly like a superhero (or villian).  Literally fly through anything and it will be destroyed.",
+
+  "spell.cursed_sorcery.oblivion": "Oblivion",
+  "spell.cursed_sorcery.oblivion.guide": "Channel nearby opponents through oblivion and brings them back at a new location to deal medium damage",
+
+  "spell.cursed_sorcery.transportation": "Transportation",
+  "spell.cursed_sorcery.transportation.guide": "Teleport nearby opponents to a random location, dealing medium damage to them",
+
+
+  "effect.cursed_sorcery.silence_potion_effect": "Silenced",
+  "effect.cursed_sorcery.silence_potion_effect.description": "Prevents the user from casting spells",
+  "effect.cursed_sorcery.metaphysical_potion_effect": "Metaphysical",
+  "effect.cursed_sorcery.metaphysical_potion_effect.description": "Prevents the user from taking and dealing damage, as well as casting spells",
+  "effect.cursed_sorcery.mend_flesh_potion_effect": "Mending Flesh",
+  "effect.cursed_sorcery.mend_flesh_potion_effect.description": "Provides lifesteal on hit as well as healing on gaining XP",
+  "effect.cursed_sorcery.abracadabra_potion_effect": "Abracadabra",
+  "effect.cursed_sorcery.abracadabra_potion_effect.description": "Gives the user a damage cap and prevents negative potion effects from applying",
+  "effect.cursed_sorcery.portent_effect": "Portentous",
+  "effect.cursed_sorcery.portent_effect.description": "You feel the color around you fade.",
+  "effect.cursed_sorcery.malignant_burn_potion_effect": "Malignant Burn",
+  "effect.cursed_sorcery.malignant_burn_potion_effect.description": "Reduces the victim's spell resistance",
+  "effect.cursed_sorcery.accursed_potion_effect": "Accursed",
+  "effect.cursed_sorcery.accursed_potion_effect.description": "Reduces spell resistance, armor and attack damage",
+  "effect.cursed_sorcery.blood_rot_potion_effect": "Blood Rot",
+  "effect.cursed_sorcery.blood_rot_potion_effect.description": "Reduces blood spell resistance and blood spell power, as well as damaging every 3 seconds",
+  "effect.cursed_sorcery.prey_potion_effect": "Prey",
+  "effect.cursed_sorcery.prey_potion_effect.description": "Ravenous jaws are summoned at your location when hit by a predator",
+  "effect.cursed_sorcery.predator_potion_effect": "Predator",
+  "effect.cursed_sorcery.predator_potion_effect.description": "Summon ravenous jaws when hitting prey",
+  "effect.cursed_sorcery.scorched_soul_potion_effect": "Scorched Soul",
+  "effect.cursed_sorcery.scorched_soul_potion_effect.description": "Take increased damage from fire magic or if you are on fire while the attacker is holding the Soul Fire Scythe",
+
+
+  "curios.identifier.artifact": "Artifact",
+  "curios.modifiers.artifact": "Artifact",
+
+
+  "fluid_type.cursed_sorcery.liquid_malice": "Liquid Malice",
+
+
+  "item.cursed_sorcery.corrupted_cloth": "Corrupted Cloth",
+  "item.cursed_sorcery.eldritch_soul_shard": "Eldritch Soulshard",
+  "item.cursed_sorcery.shard_of_malice": "Shard of Malice",
+  "item.cursed_sorcery.bottle_of_liquid_malice": "Vial of Liquid Malice",
+  "item.cursed_sorcery.forbidden_spell_improvement": "Forbidden Spell Slot Improvement",
+  "item.cursed_sorcery.soul_ember": "Soul Ember",
+
+  "item.cursed_sorcery.black_book_spellbook": "Black Book",
+  "item.cursed_sorcery.the_apocrypha_spellbook": "The Apocrypha",
+  "item.cursed_sorcery.tempestuous_tome": "Stormweaver's Spell Tome",
+  "item.cursed_sorcery.tempestuous_tome.desc": "Storm Within - Upon inflicting lightning damage, create a chain lightning on the hit target",
+  "item.cursed_sorcery.frozen_folio": "Frozen Folios",
+  "item.cursed_sorcery.diary_of_decay": "Diary of Decay",
+  "item.cursed_sorcery.diary_of_decay.desc": "Blood Rot - When attacked, the entity that harmed you is inflicted damage and reduced blood spell power and resist",
+  "item.cursed_sorcery.guardian_guidebook": "Guardian's Guidebook",
+
+  "item.cursed_sorcery.echo_vibration_ring": "Echo Vibration Ring",
+  "item.cursed_sorcery.echo_vibration_ring.desc": "Provides bonus recasts for Boogie Woogie",
+  "item.cursed_sorcery.kings_effigy": "King's Visage",
+  "item.cursed_sorcery.kings_effigy.desc": "Being torn apart over and over again, is this what you want?",
+  "item.cursed_sorcery.amulet_of_sculk_treasure": "Amulet of Hidden Treasure",
+  "item.cursed_sorcery.amulet_of_sculk_treasure.desc": "The gem reflects an ancient enemy before your eyes",
+  "item.cursed_sorcery.casters_mantle": "Caster's Mantle",
+  "item.cursed_sorcery.ironbound_feather": "Ironbound Feather",
+  "item.cursed_sorcery.ironbound_feather.desc": "A beautiful brooch that feels lighter than it seems",
+  "item.cursed_sorcery.pyrium_sheath": "Pyrium Sheath",
+  "item.cursed_sorcery.pyrium_sheath.desc": "On hit, ignite entities on fire for 3 seconds and deal increased damage to entities on fire",
+  "item.cursed_sorcery.frostbourne_sheath": "Frostbourne Sheath",
+  "item.cursed_sorcery.frostbourne_sheath.desc": "On hit, inflicts Chilled for 5 seconds and deal increased damage to entities with Chilled",
+  "item.cursed_sorcery.rift_ripper_emblem": "Emblem of The Rift Ripper",
+  "item.cursed_sorcery.rift_ripper_emblem.desc": "An ancient emblem, allows you to cast Rift Walker multiple times",
+  "item.cursed_sorcery.razor_sheath": "Sheath of The Razor",
+  "item.cursed_sorcery.razor_sheath.desc": "On hit, spawn a group of razor blades around the victim",
+
+  "item.cursed_sorcery.deep_greatsword": "Greatsword of the Depths",
+  "item.cursed_sorcery.ymir": "Ymir, Apothic Eldritch Blade",
+  "item.cursed_sorcery.dream_reaver_ymir": "Dream Reaver, Ymir",
+  "item.cursed_sorcery.ymir.description": "A blade forged from Eldritch dreams",
+  "item.cursed_sorcery.god_spear": "The God Spear",
+  "item.cursed_sorcery.ice_spear": "The Ice Spear",
+  "item.cursed_sorcery.ice_spear.description": "Frozen tears formed into cold vengeance",
+  "item.cursed_sorcery.ritual_dagger": "Ritual Dagger",
+  "item.cursed_sorcery.forlorn_rapier": "Forlorn Rapier",
+  "item.cursed_sorcery.broken_legends_blade": "Broken Legend's Blade",
+  "item.cursed_sorcery.broken_legends_blade.description": "An ancient blade forged centuries ago, perhaps it once had a use?",
+  "item.cursed_sorcery.forsaken_flamberge": "Forsaken Flamberge",
+  "item.cursed_sorcery.snowgrave": "The Snowgrave",
+  "item.cursed_sorcery.snowgrave.description_1": "The North Wind blows fiercely",
+  "item.cursed_sorcery.snowgrave.description_2": "Will you cast a spell you don't know?",
+  "item.cursed_sorcery.soul_fire_scythe": "Soul Fire Scythe",
+  "item.cursed_sorcery.soul_fire_scythe.desc": "Soul Blazed - Entities on death have their souls burned. After 5 kills, all of your hits inflict soul fire. Imbued spells on the scythe are empowered.",
+  "item.cursed_sorcery.soul_fire_scythe.desc2": "[RIGHT-CLICK]: Send a shockwave of soul fire if there are nearby mobs, spending 5 souls to do so",
+  "item.cursed_sorcery.soul_fire_scythe.desc3": "Soul-burned entities: ",
+  "item.cursed_sorcery.cataclysm": "Cataclysm",
+  "item.cursed_sorcery.devourer": "Devourer",
+  "item.cursed_sorcery.mourning_star": "Mourning Star",
+  "item.cursed_sorcery.ancient_item.description": "An weapon forged long ago. It requires malicious energy to be reawakened.",
+  "item.cursed_sorcery.cataclysm_awakened": "Awakened Cataclysm",
+  "item.cursed_sorcery.cataclysm_awakened.desc": "Zealous - Entities with over 50% of their health are inflicted with Malignant Burn, summoning smaller blades to slice them on hit",
+  "item.cursed_sorcery.devourer_awakened": "Awakened Devourer",
+  "item.cursed_sorcery.devourer_awakened.desc": "Ravenous - Entities on death are consumed. After consuming 5 entities, spew their innards on the next attack",
+  "item.cursed_sorcery.devourer_awakened.desc2": "Devoured entities:",
+  "item.cursed_sorcery.mourning_star_awakened": "Awakened Mourning Star",
+  "item.cursed_sorcery.mourning_star_awakened.desc": "Judgement - Entities with less than 50% of their health have a 50% chance of taking mortal damage or being cursed",
+
+  "item.cursed_sorcery.staff_of_eldritch": "Staff of Vehemence",
+  "item.cursed_sorcery.staff_of_ascension": "Staff of Ascension",
+  "item.cursed_sorcery.broken_legends_staff": "Broken Legend's Staff",
+  "item.cursed_sorcery.broken_legends_staff.description": "An ancient staff constructed centuries ago, perhaps it once had a use?",
+
+  "item.cursed_sorcery.eldritch_warlock_hood": "Apothic Acolyte Hood",
+  "item.cursed_sorcery.eldritch_warlock_robes": "Apothic Acolyte Robes",
+  "item.cursed_sorcery.eldritch_warlock_leggings": "Apothic Acolyte Breeches",
+  "item.cursed_sorcery.eldritch_warlock_greaves": "Apothic Acolyte Greaves",
+  "item.cursed_sorcery.eldritch_warlock_mask": "Apothic Acolyte Mask",
+  "item.cursed_sorcery.eldritch_warlock_helmet": "Apothic Acolyte Helmet",
+
+  "item.cursed_sorcery.crimson_stag_antlers": "Crimson Stag Antlers",
+  "item.cursed_sorcery.crimson_stag_robes": "Crimson Stag Robes",
+  "item.cursed_sorcery.crimson_stag_leggings": "Crimson Stag Breeches",
+  "item.cursed_sorcery.crimson_stag_boots": "Crimson Stag Tabi",
+
+  "item.cursed_sorcery.eldritch_upgrade_orb": "Eldritch Upgrade Orb",
+  "item.cursed_sorcery.eldritch_rune": "Eldritch Rune",
+  "item.cursed_sorcery.eldritch_upgrade_template": "Eldritch Upgrade Template",
+  "item.cursed_sorcery.ritual_upgrade_orb": "Occult Upgrade Orb",
+  "item.cursed_sorcery.ritual_rune": "Occult Rune",
+
+  "item.cursed_sorcery.dark_upgrade_orb": "Void Upgrade Orb",
+  "item.cursed_sorcery.dark_rune": "Void Rune",
+
+  "item.cursed_sorcery.apothic_key": "Apothic Key",
+  "item.cursed_sorcery.ascended_key": "Ascended Key",
+  "item.cursed_sorcery.ritual_key": "Ritual Key",
+
+  "item.cursed_sorcery.apothic_acolyte_spawn_egg": "Apothic Acolyte Spawn Egg",
+  "item.cursed_sorcery.apothic_summoner_spawn_egg": "Apothic Summoner Spawn Egg",
+  "item.cursed_sorcery.apothic_crusader_spawn_egg": "Apothic Crusader Spawn Egg",
+  "item.cursed_sorcery.ascended_cultist_spawn_egg": "Ascended Cultist Spawn Egg",
+  "item.cursed_sorcery.blood_cultist_captain_spawn_egg": "Blood Cultist Captain Spawn Egg",
+  "item.cursed_sorcery.electromancer_spawn_egg": "Electromancer Spawn Egg",
+  "item.cursed_sorcery.blood_cultist_mage_spawn_egg": "Blood Cultist Mage Spawn Egg",
+  "item.cursed_sorcery.blood_cultist_witch_spawn_egg": "Blood Cultist Witch Spawn Egg",
+  "item.cursed_sorcery.blood_matriarch_spawn_egg": "Blood Matriarch Spawn Egg",
+
+  "item.cursed_sorcery.cultist_base_map": "Cultist Headquarters",
+
+  "item.cursed_sorcery.fading_sculk_lantern": "Faded Sculk Lantern",
+  "item.cursed_sorcery.fading_sculk_lantern.description": "It looks like it can be used, but when?",
+
+  "item.cursed_sorcery.more_details": "Press [SHIFT] for more details",
+  "tooltip.cursed_sorcery.active_ability": "Active Ability (%s cooldown):",
+
+
+  "spell.cursed_sorcery.silence": "Silence",
+  "spell.cursed_sorcery.silence.guide": "Cast a wicked spell that prevents targets from casting any spell for a set amount of time",
+
+  "spell.cursed_sorcery.boogie_woogie": "Boogie Woogie",
+  "spell.cursed_sorcery.boogie_woogie.guide": "Boogie Woogie!",
+
+  "spell.cursed_sorcery.guardians_gaze": "Guardian's Gaze",
+  "spell.cursed_sorcery.guardians_gaze.guide": "A unique variant of Ray of Frost that inflicts mining fatigue",
+
+  "spell.cursed_sorcery.esoteric_edge": "Esoteric Edge",
+  "spell.cursed_sorcery.esoteric_edge.guide": "Unleash a devastating slash of pure eldritch energy, inflicting darkness on impact",
+
+  "spell.cursed_sorcery.otherworldly_presence": "Otherworldly Presence",
+  "spell.cursed_sorcery.otherworldly_presence.guide": "Teleport and shift between reality, causing you to be unable to take any damage but also unable to deal any damage",
+
+  "spell.cursed_sorcery.conjure_gaoler": "Conjure: Gaoler",
+  "spell.cursed_sorcery.conjure_gaoler.guide": "Conjure the legendary Gaoler, the ancient ancestor of the Warden",
+
+  "spell.cursed_sorcery.conjure_forsaken_aid": "Conjure: Forsaken Aid",
+  "spell.cursed_sorcery.conjure_forsaken_aid.guide": "Conjure multiple eldritch beings to your aid",
+
+  "spell.cursed_sorcery.call_ascended_one": "Call: The Ascended One",
+  "spell.cursed_sorcery.call_ascended_one.guide": "Call The Ascended One from beyond death to challenge him to a battle",
+
+  "spell.cursed_sorcery.mend_flesh": "Mend Flesh",
+  "spell.cursed_sorcery.mend_flesh.guide": "Mend your wounds using Sculk, healing you for damage you deal and experience you take in",
+
+  "spell.cursed_sorcery.exorcism": "Exorcism",
+  "spell.cursed_sorcery.exorcism.guide": "Cleanse your mind and soul of the Eldritch Madness that haunts you",
+
+  "spell.cursed_sorcery.glacial_edge": "Glacial Cleave",
+  "spell.cursed_sorcery.glacial_edge.guide": "Unleash a slash formed of raw ice, inflicted Chilled on impact",
+
+  "spell.cursed_sorcery.rift_walker": "Rift Walker",
+  "spell.cursed_sorcery.rift_walker.guide": "Carve an unstable teleportation rift using raw mana which explode after teleporting",
+
+  "spell.cursed_sorcery.abracadabra": "Abracadabra",
+  "spell.cursed_sorcery.abracadabra.guide": "Cast a protective spell on yourself that prevents you from being hexed as well as limiting the damage you can take",
+
+  "spell.cursed_sorcery.esoteric_strike": "Esoteric Strike",
+  "spell.cursed_sorcery.esoteric_strike.guide": "Strike at your opponent with a hit empowered by eldritch mana",
+
+  "spell.cursed_sorcery.crystalline_carver": "Crystalline Carver",
+  "spell.cursed_sorcery.crystalline_carver.guide": "Slash forwards, inflicting chilled on nearby entities. On the final slash, inflict bonus damage based on the level of chilled an entity has",
+
+  "spell.cursed_sorcery.blades_of_rancor": "Blades of Rancor",
+  "spell.cursed_sorcery.blades_of_rancor.guide": "Summon a flurry of blades that home in on where you gaze",
+
+  "spell.cursed_sorcery.zealous_harbinger": "Zealous Executioner",
+  "spell.cursed_sorcery.zealous_harbinger.guide": "Conjure forth echoes of the Cataclysm blade to slice your opponents to shreds and afflict them with a curse",
+
+  "spell.cursed_sorcery.ravenous_revenant": "Ravenous Revenant",
+  "spell.cursed_sorcery.ravenous_revenant.guide": "Unleash a terrifying roar, marking nearby entities as Prey. Hitting Prey entities causes a ravenous maw to lash at them",
+
+  "spell.cursed_sorcery.soul_slice": "Soul Slice",
+  "spell.cursed_sorcery.soul_slice.guide": "Slash forwards, engulfing your weapon in soul fire and igniting anything it touches. Spend 2 souls per cast to enhance damage",
+
+  "spell.cursed_sorcery.soul_set_ablaze": "Soul Set Ablaze",
+  "spell.cursed_sorcery.soul_set_ablaze.guide": "Charge up your scythe, creating an outburst of pure soul fire that ignites everything around it. Consume 50 souls to double damage",
+
+  "spell.cursed_sorcery.libras_judgement": "Libra's Judgement",
+  "spell.cursed_sorcery.libras_judgement.guide": "Judge your opponent: If they are above 50% HP, conjure the Mourning Star above them. If they are below 50% HP, immolate them in vicious flames",
+
+
+  "ui.cursed_sorcery.extra_damage": "Deals extra damage while holding a weapon in your mainhand",
+  "ui.cursed_sorcery.ritual_cast_failure": "Rituals cannot be casted in a mere spellbook",
+  "ui.cursed_sorcery.spell_power": "%d Spell Power",
+  "ui.cursed_sorcery.spell_resist": "%d Spell Resist",
+  "ui.cursed_sorcery.frozen_weapon_bonus": "Deals 50% more damage if a frozen weapon is held in the mainhand",
+  "ui.cursed_sorcery.melee_damage": "Scales with melee attack attribute",
+  "ui.cursed_sorcery.damage_on_last_recast": "Deals damage on final recast",
+  "ui.cursed_sorcery.soul_slice_spending": "Spend 2 souls per cast to add +2 damage",
+  "ui.cursed_sorcery.soul_set_ablaze_spending": "Spend 50 souls to double damage",
+  "ui.cursed_sorcery.scorched_soul_effect": "Inflicted Scorched Soul effect to targets",
+  "ui.cursed_sorcery.libras_chance_1": "If target is above 50% HP conjure mourning above them",
+  "ui.cursed_sorcery.libras_chance_2": "If target is below 50% HP, inflict burns",
+
+
+  "tooltip.cursed_sorcery.abracadabra_description": "Damage taken caps at +%d%%",
+
+
+  "material.cursed_sorcery.rune_eldritch": "Eldritch Rune",
+
+
+  "entity.cursed_sorcery.apothic_acolyte": "Apothic Acolyte",
+  "entity.cursed_sorcery.apothic_crusader": "Apothic Crusader",
+  "entity.cursed_sorcery.apothic_summoner": "Apothic Summoner",
+  "entity.cursed_sorcery.gaoler": "Gaoler",
+  "entity.cursed_sorcery.ascended_one": "The Ascended One",
+  "entity.cursed_sorcery.esoteric_edge": "Esoteric Edge",
+  "entity.cursed_sorcery.apostle": "Void Acolyte",
+  "entity.cursed_sorcery.sightless_maw": "Sightless Maw",
+  "entity.cursed_sorcery.untold_behemoth": "Untold Behemoth",
+  "entity.cursed_sorcery.ascended_one_cultist": "Ascended Cultist",
+  "entity.cursed_sorcery.apothic_traitor": "Apothic Trader",
+  "entity.cursed_sorcery.razor_blade": "Razor Blade",
+  "entity.cursed_sorcery.blood_cultist_captain": "Blood Cultist Captain",
+  "entity.cursed_sorcery.glacial_edge": "Glacial Edge",
+  "entity.cursed_sorcery.unstable_rift": "Unstable Rift",
+  "entity.cursed_sorcery.esoteric_strike": "Esoteric Strike",
+  "entity.cursed_sorcery.crystal_carve": "Crystalline Shard",
+  "entity.cursed_sorcery.electromancer": "Electromancer",
+  "entity.cursed_sorcery.blood_cultist_mage": "Blood Cultist Mage",
+  "entity.cursed_sorcery.blood_cultist_witch": "Blood Cultist Witch",
+  "entity.cursed_sorcery.blood_matriarch": "Blood Matriarch",
+
+
+
+  "bossbar.cursed_sorcery.ascended_one_boss": "The Ascended One",
+
+
+
+  "display.cursed_sorcery.ascended_one_taunt_1": "You think you can stop me?",
+  "display.cursed_sorcery.ascended_one_taunt_2": "BEHOLD, MY APOTHEOSIS!",
+  "display.cursed_sorcery.insanity_warning_1": "ARE YOU STILL YOU?",
+  "display.cursed_sorcery.insanity_warning_2": "NO GOING BACK",
+  "display.cursed_sorcery.insanity_warning_3": "YOUR MIND FALTERS",
+  "display.cursed_sorcery.insanity_warning_4": "THE KING COMES.",
+  "display.cursed_sorcery.silence_warning": "Unable to cast for : ",
+  "display.cursed_sorcery.presence_warning": "Your metaphysical form cannot cast spells for : ",
+  "display.cursed_sorcery.exorcism_no_insanity": "There is nothing to cleanse",
+  "display.cursed_sorcery.no_insanity_system": "Insanity does not reside in your heart",
+  "display.cursed_sorcery.fading_sculk_lantern_fail": "You call, but there is no response",
+  "display.cursed_sorcery.fading_sculk_lantern_success": "You call, she's coming - prepare yourself",
+  "display.cursed_sorcery.judgement_decree_1": "Judgement Decree: Mortal Damage on hit",
+  "display.cursed_sorcery.judgement_decree_2": "Judgement Decree: Affliction on hit",
+  "display.cursed_sorcery.libras_judgement_1": "Judgement Decree: Mourning Star's Smite",
+  "display.cursed_sorcery.libras_judgement_2": "Judgement Decree: Immolate in Flames",
+
+
+
+  "subtitles.entity.gaoler.hurt": "Gaoler hurts",
+  "subtitles.entity.gaoler.step": "Gaoler footsteps",
+  "subtitles.entity.gaoler.ambient": "Gaoler snarls",
+  "subtitles.entity.gaoler.attack_impact": "Gaoler attacks",
+  "subtitles.entity.gaoler.death": "Gaoler dies",
+  "subtitles.entity.gaoler.roar": "Gaoler roars angrily",
+  "subtitles.entity.ascended_one.hurt": "Ascended One hurts",
+  "subtitles.entity.ascended_one.death": "Ascended One dies",
+  "subtitles.entity.ascended_one.taunt_1": "Ascended One taunts you",
+  "subtitles.entity.ascended_one.taunt_2": "Ascended One challenges you",
+  "subtitles.item.fading_lantern_rings": "Fading Lantern echoes",
+  "subtitles.item.fading_lantern_beckons": "Fading Lantern beckons Her",
+
+
+  "death.attack.cursed_sorcery.guardians_gaze": "%1$s fell from %2$s's gaze",
+  "death.attack.cursed_sorcery.esoteric_edge": "%1$s was torn asunder by %2$s",
+  "death.attack.cursed_sorcery.gaoler": "%1$s was maimed and gored by %2$s",
+  "death.attack.cursed_sorcery.conjure_gaoler": "%1$s was maimed and gored by %2$s",
+  "death.attack.cursed_sorcery.ascended_one": "%1$s saw the truth by %2$s",
+  "death.attack.cursed_sorcery.apostle": "%1$s unmade by %2$s",
+  "death.attack.cursed_sorcery.sightless_maw": "%1$s torn to shreds by %2$s",
+  "death.attack.cursed_sorcery.untold_behemoth": "%1$s beaten to death by %2$s",
+  "death.attack.cursed_sorcery.apothic_traitor": "%1$s had their life traded for six silver by %2$s",
+  "death.attack.cursed_sorcery.razor_blade": "%1$s enjoyed the mutual subtext of their murder",
+  "death.attack.cursed_sorcery.blood_cultist_captain": "%1$s had their heart ripped out by %2$s",
+  "death.attack.cursed_sorcery.glacial_edge": "%1$s had their body parts frozen by %2$s",
+  "death.attack.cursed_sorcery.unstable_rift": "%1$s flesh was torn from their skeleton by %2$s unstable rift",
+  "death.attack.cursed_sorcery.esoteric_strike": "%1$s was punched into oblivion by %2$s",
+  "death.attack.cursed_sorcery.crystal_carve": "%1$s was turned into icy ribbons by %2$s",
+  "death.attack.cursed_sorcery.gore_bile": "%1$s was disintegrated",
+  "death.attack.cursed_sorcery.blood_rot": "%1$s had they blood decayed",
+  "death.attack.cursed_sorcery.devoured": "%1$s was devoured by their own weapon",
+
+  "death.attack.cursed_sorcery.esoteric_edge.item": "%1$s was torn asunder by %2$s using %3$s",
+  "death.attack.cursed_sorcery.gaoler.item": "%1$s maimed and gored by %2$s using %3$s",
+  "death.attack.cursed_sorcery.conjure_gaoler.item": "%1$s maimed and gored by %2$s using %3$s",
+  "death.attack.cursed_sorcery.apostle.item": "%1$s unmade by %2$s using %3$s",
+  "death.attack.cursed_sorcery.sightless_maw.item": "%1$s torn to shreds by %2$s using %3$s",
+  "death.attack.cursed_sorcery.untold_behemoth.item": "%1$s beaten to death by %2$s using %3$s",
+  "death.attack.cursed_sorcery.apothic_traitor.item": "%1$s had their life traded for six silver by %2$s using %3$s",
+  "death.attack.cursed_sorcery.razor_blade.item": "%1$s enjoyed the mutual subtext of their murder by %2$s using %3$s",
+  "death.attack.cursed_sorcery.blood_cultist_captain.item": "%1$s had their heart ripped out by %2$s using %3$s",
+  "death.attack.cursed_sorcery.glacial_edge.item": "%1$s had their body parts frozen by %2$s using %3$s",
+  "death.attack.cursed_sorcery.unstable_rift.item": "%1$s flesh was torn from their skeleton by %2$s unstable rift using %3$s",
+  "death.attack.cursed_sorcery.esoteric_strike.item": "%1$s was punched into oblivion by %2$s using %3$s",
+  "death.attack.cursed_sorcery.crystal_carve.item": "%1$s was turned into icy ribbons by %2$s using %3$s",
+
+  "death.attack.cursed_sorcery.razor_blade.player": "%1$s enjoyed the mutual subtext of their murder by %2$s",
+  "death.attack.cursed_sorcery.gore_bile.player": "%1$s was disintegrated by %2$s's stomach fluids",
+  "death.attack.cursed_sorcery.blood_rot.player": "%1$s had they blood decayed by %2$s",
+  "death.attack.cursed_sorcery.devoured.player": "%1$s was devoured by their own weapon while fighting %2$s",
+
+
+
+  "advancements.cursed_sorcery.apocrypha_spellbook.title": "The Gardener of Men",
+  "advancements.cursed_sorcery.apocrypha_spellbook.description": "Obtain The Apocrypha spell book",
+
+  "advancements.cursed_sorcery.black_book_spellbook.title": "The Path of Knowledge",
+  "advancements.cursed_sorcery.black_book_spellbook.description": "Obtain The Black Book",
+
+  "advancements.cursed_sorcery.staff_of_ascension.title": "Ascensionism",
+  "advancements.cursed_sorcery.staff_of_ascension.description": "Obtain The Staff of Ascension",
+
+  "advancements.cursed_sorcery.root.title": "Discerning The Eldritch",
+  "advancements.cursed_sorcery.root.description": "Delve into the untold world of Eldritch magic",
+
+  "advancements.cursed_sorcery.forsaken_flamberge.title": "Blade of The Forsaken",
+  "advancements.cursed_sorcery.forsaken_flamberge.description": "Craft a Forsaken Flamberge",
+
+  "advancements.cursed_sorcery.ymir.title": "Eldritch Dream Eater",
+  "advancements.cursed_sorcery.ymir.description": "Craft the legendary Ymir blade",
+
+  "advancements.cursed_sorcery.eldritch_soul_shard.title": "A Dead God's Dream",
+  "advancements.cursed_sorcery.eldritch_soul_shard.description": "Craft an Eldritch Soulshard",
+
+  "advancements.cursed_sorcery.enter_cultist_base.title": "A Hidden Society",
+  "advancements.cursed_sorcery.enter_cultist_base.description": "Locate the Apothic Cultist base",
+
+  "advancements.cursed_sorcery.ascended_one_fight.title": "Will You Behold?",
+  "advancements.cursed_sorcery.ascended_one_fight.description": "Fight The Ascended One",
+
+  "advancements.cursed_sorcery.kill_ascended_one.title": "My Apotheosis",
+  "advancements.cursed_sorcery.kill_ascended_one.description": "Kill The Ascended One"
+}

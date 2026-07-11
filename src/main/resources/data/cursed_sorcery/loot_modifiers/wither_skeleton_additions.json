@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/wither_skeleton"
+    }
+  ],
+  "type": "cursed_sorcery:add_to_table",
+  "loot_table": "cursed_sorcery:entities/shards_of_malice"
+}

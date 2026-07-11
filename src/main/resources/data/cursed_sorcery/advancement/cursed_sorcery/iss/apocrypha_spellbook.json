@@ -1,0 +1,32 @@
+{
+    "display": {
+        "hidden": true,
+        "icon": {
+            "id": "cursed_sorcery:the_apocrypha_spellbook"
+        },
+        "title": {
+            "translate": "advancements.cursed_sorcery.apocrypha_spellbook.title"
+        },
+        "description": {
+            "translate": "advancements.cursed_sorcery.apocrypha_spellbook.description"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "frame": "challenge"
+    },
+    "parent": "irons_spellbooks:irons_spellbooks/spell_book_equip",
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "cursed_sorcery:the_apocrypha_spellbook"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}

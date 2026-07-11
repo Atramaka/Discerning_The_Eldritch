@@ -1,0 +1,46 @@
+package net.feshy.cursed_sorcery.items.weapons;
+
+import io.redspace.ironsspellbooks.api.item.weapons.ExtendedSwordItem;
+import io.redspace.ironsspellbooks.api.item.weapons.MagicSwordItem;
+import io.redspace.ironsspellbooks.api.registry.SpellDataRegistryHolder;
+import io.redspace.ironsspellbooks.item.UniqueItem;
+import io.redspace.ironsspellbooks.util.ItemPropertiesHelper;
+import net.feshy.cursed_sorcery.registries.SpellRegistries;
+import net.feshy.cursed_sorcery.utils.DTERarities;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+
+import java.util.List;
+
+public class YmirSwordItem extends MagicSwordItem implements UniqueItem {
+    public YmirSwordItem() {
+        super(
+                DTEWeaponTiers.YMIR,
+                ItemPropertiesHelper.equipment(1).fireResistant().rarity(DTERarities.APOTHIC_RARITY_PROXY.getValue()).attributes(ExtendedSwordItem.createAttributes(DTEWeaponTiers.YMIR)),
+                SpellDataRegistryHolder.of(
+//                        new SpellDataRegistryHolder(SpellRegistries.ESOTERIC_EDGE, 6),
+//                        new SpellDataRegistryHolder(SpellRegistries.SILENCE, 6)
+                )
+        );
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        tooltipComponents.add(Component.translatable("item.cursed_sorcery.ymir.description").
+                withStyle(ChatFormatting.DARK_RED).
+                withStyle(ChatFormatting.ITALIC));
+    }
+
+    /*
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+        tooltipComponents.add(Component.translatable("item.cursed_sorcery.ymir.description").append(String.valueOf(MinecraftInstanceHelper.getPlayer().getAttributeValue(AttributeRegistry.ELDRITCH_SPELL_POWER))).
+                withStyle(ChatFormatting.DARK_RED).
+                withStyle(ChatFormatting.ITALIC));
+    }
+     */
+}

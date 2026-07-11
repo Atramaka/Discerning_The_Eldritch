@@ -1,0 +1,14 @@
+{
+    "conditions": [
+        {
+            "condition": "neoforge:loot_table_id",
+            "loot_table_id": "irons_spellbooks:entities/fire_boss"
+        },
+        {
+            "condition": "minecraft:random_chance",
+            "chance": 0.9
+        }
+    ],
+    "type": "cursed_sorcery:add_to_table",
+    "loot_table": "cursed_sorcery:entities/pyrium_sheath"
+}

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "discerning_the_eldritch:eldritch_warlock_hood",
-    "discerning_the_eldritch:eldritch_warlock_mask",
-    "discerning_the_eldritch:eldritch_warlock_helmet"
+    "cursed_sorcery:eldritch_warlock_hood",
+    "cursed_sorcery:eldritch_warlock_mask",
+    "cursed_sorcery:eldritch_warlock_helmet"
   ]
 }

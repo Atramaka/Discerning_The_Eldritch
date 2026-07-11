@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "rrr",
+        "ror",
+        "rrr"
+    ],
+    "key": {
+        "o": {
+            "item": "irons_spellbooks:upgrade_orb"
+        },
+        "r": {
+            "item": "cursed_sorcery:eldritch_rune"
+        }
+    },
+    "result": {
+        "id": "cursed_sorcery:eldritch_upgrade_orb",
+        "count": 1
+    }
+}

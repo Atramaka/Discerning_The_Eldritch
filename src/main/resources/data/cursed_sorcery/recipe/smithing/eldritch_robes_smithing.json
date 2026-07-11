@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "cursed_sorcery:corrupted_cloth"
+    },
+    "base": {
+        "item": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    "result": {
+        "count": 1,
+        "id": "cursed_sorcery:eldritch_warlock_robes"
+    },
+    "template": {
+        "item": "cursed_sorcery:eldritch_upgrade_template"
+    }
+}

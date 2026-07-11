@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "cursed_sorcery:blood_cultist_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 55,
+    "separation": 33,
+    "salt": 9174541457
+  }
+}

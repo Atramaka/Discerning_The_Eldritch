@@ -1,0 +1,15 @@
+{
+  "name": "cursed_sorcery:wizard_home_mobs/electromancer",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cursed_sorcery:wizard_home_mobs/electromancer",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

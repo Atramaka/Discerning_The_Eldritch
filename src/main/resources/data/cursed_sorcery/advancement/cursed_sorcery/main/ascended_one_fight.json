@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "cursed_sorcery:apothic_key"
+    },
+    "title": {
+      "translate": "advancements.cursed_sorcery.ascended_one_fight.title"
+    },
+    "description": {
+      "translate": "advancements.cursed_sorcery.ascended_one_fight.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursed_sorcery:cursed_sorcery/main/enter_cultist_base",
+  "criteria": {
+    "ascended_one": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "cursed_sorcery:ascended_one"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ascended_one"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

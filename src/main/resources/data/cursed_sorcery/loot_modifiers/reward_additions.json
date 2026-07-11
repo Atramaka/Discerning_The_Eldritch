@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/trial_chambers/reward"
+    }
+  ],
+  "type": "cursed_sorcery:add_to_table",
+  "loot_table": "cursed_sorcery:chests/trial_chambers/ironbound_feather"
+}

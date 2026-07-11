@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "cursed_sorcery:item/black_book_model"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "cursed_sorcery:item/black_book_gui"
+        },
+        "head": {
+            "textures": {
+                "book": "cursed_sorcery:item/spell_books/black_book_open",
+                "particle": "cursed_sorcery:item/spell_books/black_book_open"
+            },
+            "parent": "irons_spellbooks:item/template_spell_book_model_open"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cursed_sorcery:blood_cultist_captain",
+    "cursed_sorcery:blood_cultist_mage",
+    "cursed_sorcery:blood_cultist_witch",
+    "cursed_sorcery:blood_matriarch",
+    "irons_spellbooks:cultist"
+  ]
+}

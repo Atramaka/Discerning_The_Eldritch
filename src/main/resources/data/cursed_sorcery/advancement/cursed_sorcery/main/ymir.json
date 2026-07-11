@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "cursed_sorcery:ymir"
+    },
+    "title": {
+      "translate": "advancements.cursed_sorcery.ymir.title"
+    },
+    "description": {
+      "translate": "advancements.cursed_sorcery.ymir.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursed_sorcery:cursed_sorcery/main/forsaken_flamberge",
+  "criteria": {
+    "ymir": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cursed_sorcery:ymir"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ymir"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

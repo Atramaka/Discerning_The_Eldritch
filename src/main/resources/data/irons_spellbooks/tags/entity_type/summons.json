@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "discerning_the_eldritch:sightless_maw",
-    "discerning_the_eldritch:apostle",
-    "discerning_the_eldritch:gaoler",
-    "discerning_the_eldritch:untold_behemoth"
+    "cursed_sorcery:sightless_maw",
+    "cursed_sorcery:apostle",
+    "cursed_sorcery:gaoler",
+    "cursed_sorcery:untold_behemoth"
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "cursed_sorcery:eldritch_soul_shard"
+    },
+    "title": {
+      "translate": "advancements.cursed_sorcery.eldritch_soul_shard.title"
+    },
+    "description": {
+      "translate": "advancements.cursed_sorcery.eldritch_soul_shard.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursed_sorcery:cursed_sorcery/main/root",
+  "criteria": {
+    "soulshard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "cursed_sorcery:eldritch_soul_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soulshard"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,9 @@
+{
+  "amount": 0.05,
+  "attribute": "cursed_sorcery:dark_spell_power",
+  "containerItem": {
+    "count": 1,
+    "id": "cursed_sorcery:ritual_upgrade_orb"
+  },
+  "operation": "add_multiplied_base"
+}

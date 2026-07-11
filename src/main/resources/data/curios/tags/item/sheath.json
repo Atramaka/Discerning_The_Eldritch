@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "discerning_the_eldritch:pyrium_sheath",
-    "discerning_the_eldritch:frostbourne_sheath",
-    "discerning_the_eldritch:razor_sheath"
+    "cursed_sorcery:pyrium_sheath",
+    "cursed_sorcery:frostbourne_sheath",
+    "cursed_sorcery:razor_sheath"
   ]
 }

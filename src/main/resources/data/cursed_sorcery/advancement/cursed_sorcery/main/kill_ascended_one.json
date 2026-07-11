@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "cursed_sorcery:ascended_key"
+    },
+    "title": {
+      "translate": "advancements.cursed_sorcery.kill_ascended_one.title"
+    },
+    "description": {
+      "translate": "advancements.cursed_sorcery.kill_ascended_one.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "cursed_sorcery:cursed_sorcery/main/ascended_one_fight",
+  "criteria": {
+    "ascended_one": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "cursed_sorcery:ascended_one"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ascended_one"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

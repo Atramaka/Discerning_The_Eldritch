@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cursed_sorcery:apothic_summoner",
+    "cursed_sorcery:apothic_crusader",
+    "cursed_sorcery:apothic_acolyte",
+    "cursed_sorcery:ascended_one",
+    "cursed_sorcery:ascended_one_cultist"
+  ]
+}

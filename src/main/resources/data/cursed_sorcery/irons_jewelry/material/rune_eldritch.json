@@ -1,0 +1,18 @@
+{
+    "descriptionId": "material.cursed_sorcery.rune_eldritch",
+    "ingredient": {
+      "item": "cursed_sorcery:eldritch_rune"
+    },
+    "materialType": [
+      "spellbooks_rune"
+    ],
+    "paletteLocation": "cursed_sorcery:palettes/rune_eldritch",
+    "quality": 1.5,
+    "bonusParameters": {
+      "irons_jewelry:attribute": {
+        "attribute": "irons_spellbooks:eldritch_spell_power",
+        "amount": 0.025,
+        "operation": "add_multiplied_total"
+      }
+    }
+  }

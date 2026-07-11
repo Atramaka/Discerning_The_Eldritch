@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "discerning_the_eldritch:black_book_spellbook",
-        "discerning_the_eldritch:the_apocrypha_spellbook",
-        "discerning_the_eldritch:tempestuous_tome",
-        "discerning_the_eldritch:frozen_folio",
-        "discerning_the_eldritch:diary_of_decay",
-        "discerning_the_eldritch:guardian_guidebook"
+        "cursed_sorcery:black_book_spellbook",
+        "cursed_sorcery:the_apocrypha_spellbook",
+        "cursed_sorcery:tempestuous_tome",
+        "cursed_sorcery:frozen_folio",
+        "cursed_sorcery:diary_of_decay",
+        "cursed_sorcery:guardian_guidebook"
     ]
 }

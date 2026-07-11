@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "cursed_sorcery:item/frostbourne_sheath_handheld"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "cursed_sorcery:item/frostbourne_sheath_gui"
+        },
+        "fixed": {
+            "parent": "cursed_sorcery:item/frostbourne_sheath_fixed"
+        }
+    }
+}

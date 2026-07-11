@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "cursed_sorcery:item/god_spear_model"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "cursed_sorcery:item/god_spear_gui"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "cursed_sorcery:broken_legends_blade"
+    },
+    "base": {
+        "item": "cursed_sorcery:forsaken_flamberge"
+    },
+    "result": {
+        "count": 1,
+        "id": "cursed_sorcery:ymir"
+    },
+    "template": {
+        "item": "cursed_sorcery:eldritch_soul_shard"
+    }
+}

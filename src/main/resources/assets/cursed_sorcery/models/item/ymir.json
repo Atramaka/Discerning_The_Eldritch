@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "neoforge:separate_transforms",
+    "base": {
+        "parent": "cursed_sorcery:item/ymir_item_model"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "minecraft:item/handheld",
+            "textures": {
+                "layer0": "cursed_sorcery:item/ymir_gui"
+            }
+        }
+    }
+}

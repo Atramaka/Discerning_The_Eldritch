@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "aca",
+      "cbc",
+      "aca"
+    ],
+    "result": {
+      "count": 1,
+      "id": "cursed_sorcery:the_apocrypha_spellbook"
+    },
+    "key": {
+        "a": {
+          "item": "irons_spellbooks:ancient_knowledge_fragment"
+        },
+        "b": {
+          "item": "irons_spellbooks:netherite_spell_book"
+        },
+        "c": {
+          "item": "cursed_sorcery:corrupted_cloth"
+        }
+    }
+}

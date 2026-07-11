@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "item": "minecraft:echo_shard"
+    },
+    "base": {
+        "item": "irons_spellbooks:keeper_flamberge"
+    },
+    "result": {
+        "count": 1,
+        "id": "cursed_sorcery:forsaken_flamberge"
+    },
+    "template": {
+        "item": "cursed_sorcery:eldritch_upgrade_template"
+    }
+}

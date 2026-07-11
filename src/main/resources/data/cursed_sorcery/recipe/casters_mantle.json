@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "   ",
+      "ccc",
+      "a a"
+    ],
+    "result": {
+      "count": 1,
+      "id": "cursed_sorcery:casters_mantle"
+    },
+    "key": {
+        "c": {
+          "item": "cursed_sorcery:corrupted_cloth"
+        },
+        "a": {
+          "item": "minecraft:amethyst_shard"
+        }
+    }
+}
